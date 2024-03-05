@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+}
+
+html {
+    min-height: 100%;
+    background-image: url("./assets/backg-metaver.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.three-dice,
+.name-sorteio {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 25px;
+}
+
+.name-sorteio {
+    margin-top: -125px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -50px;
+}
+
+p {
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    font-size: 35px;
+    line-height: 37px;
+    padding-bottom: 12px;
+    text-shadow: blueviolet 2px 2px 4px;
+}
+
+input {
+    width: 342px;
+    height: 74px;
+    border-radius: 14px;
+    border: 1px solid rgb(60, 60, 60);
+    font-weight: 500;
+    font-size: 30px;
+    outline: none;
+    padding-left: 10px;
+    margin-left: 40px;
+    color: darkblue;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+button {
+    width: 340px;
+    height: 70px;
+    font-size: 33px;
+    border-radius: 10px;
+    border: none;
+    color: azure;
+    background: #19f609;
+    margin: 72px auto 0;
+    display: block;
+    cursor: pointer;
+    box-shadow: 0px 18px 37px rgba(242,250,245,1);
+}
+
+button:hover {
+    opacity: 0.9;
+}
+button:active {
+    opacity: 0.8;
+}
