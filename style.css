@@ -49,6 +49,7 @@ h1 {
     background-size: 400% 100%;
     animation: degrade 10s linear infinite alternate;
 
+    background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
